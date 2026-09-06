@@ -11,8 +11,6 @@ I then added a second layer of access to the same data using GraphQL with Apollo
 
 The current architecture is:
 
-REST → Fastify → Prisma → PostgreSQL
-
-GraphQL → Apollo Server → Prisma → PostgreSQL
+REST, Fastify, Prisma, PostgreSQL, GraphQL, Apollo Server, Prisma, PostgreSQL
 
 The main goal of the project was to gain practical insight into how a backend application communicates with a database and how different API interfaces can work with the same data.
