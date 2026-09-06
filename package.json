@@ -1,0 +1,23 @@
+{
+  "name": "affiliate-platform",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "prisma skills sync || exit 0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@apollo/server": "^5.5.1",
+    "@fastify/swagger": "^9.8.1",
+    "@fastify/swagger-ui": "^6.1.1",
+    "@prisma/client": "^6.19.0",
+    "fastify": "^5.12.1",
+    "graphql": "^16.14.2",
+    "prisma": "^6.19.0"
+  }
+}
